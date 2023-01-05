@@ -90,11 +90,21 @@ img {
   .mobile-menu-open{
     display: none;
   }
+  .header-contacts{
+    flex-direction: column
+  }
+  .header-list-item{
+    margin-bottom: 4px;
+  }
 }
+
 
 @media screen and (min-width: 1200px) {
   .container{
     width: 1158px;
+  }
+  .header-contacts{
+    flex-direction:inherit
   }
 }
 
