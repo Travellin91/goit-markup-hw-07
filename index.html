@@ -47,15 +47,16 @@
               >+11 (000) 111-11-11</a
             >
           </li>
-          <button type="button" class="mobile-menu-open">
-            <svg class="mobile-menu-open-icon" width="8" height="8">
+          <button type="button" class="mobile-menu-open js-open-menu" >
+            <svg class="mobile-menu-open-icon" width="32" height="22">
               <use href="./images/icons.svg#icon-menu-rounded"></use>
             </svg>
           </button>
         </ul>
       </div>
-      <div class="mobile-menu">
-        <button class="mobile-menu-close-button">
+      <div class="mobile-menu js-menu-container is-open">
+        <div class="container mobile-menu-container ">
+        <button class="mobile-menu-close-button js-close-menu" >
           <svg class="mobile-menu-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
@@ -70,7 +71,7 @@
           <li class="mobile-list-item">
             <a class="mobile-link" href="#">Contacts</a>
           </li>
-          <li>
+          <li class="mobile-list-item-phone">
             <a class="mobile-contact" href="tel:+11(000)111-11-11"
               >+11 (000) 111-11-11</a
             >
@@ -111,6 +112,7 @@
           </li>
         </ul>
       </ul>
+    </div>
       </div>
     </header>
     <main>
