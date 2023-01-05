@@ -84,6 +84,12 @@ img {
   .container{
     width: 765px;
   }
+  .mobile-menu{
+    display: none;
+  }
+  .mobile-menu-open{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1200px) {
