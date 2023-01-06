@@ -458,7 +458,7 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -918,8 +918,32 @@ screen and (min-resolution: 2dppx) and (min-width: 768px){
 
 /*Footer*/
 
+
 .footer-container {
   display: flex;
+}
+
+@media screen and (max-width: 480px){
+  .footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
 }
 
 .footer-logo {
