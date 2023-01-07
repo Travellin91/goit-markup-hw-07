@@ -1002,9 +1002,9 @@ img {
     display: flex;
     justify-content: center;
     align-self: start;
-    margin-left: 110px;
+    margin-left: auto;
     margin-bottom: 72px;
-    margin-right: 110px;
+    margin-right: auto;
   }
   .social-media {
     display: flex;
@@ -1014,24 +1014,15 @@ img {
     display: flex;
     flex-direction: column;
   }
-
-  .footer-subscribe {
-    width: 396px;
-    display: flex;
-    align-items: start;
-  }
+  
   .footer-form {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 80px;
+    margin-left: 0px;
   }
-  .button-form {
-    margin-top: 16px;
-    margin-right: 24px;
-  }
-}
 
+}
 /*@media screen and (max-width: 768px){
   .footer-container{
     display: flex;
@@ -1078,6 +1069,16 @@ img {
 .footer-solutions {
   margin-right: 120px;
   display: block;
+}
+@media screen and (max-width: 480px) {
+.footer-solutions {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-bottom: 72px;
+  margin-right: auto;
+}
 }
 
 .footer-media {
@@ -1134,9 +1135,26 @@ img {
   margin-left: 80px;
   flex-direction: column;
 }
+@media screen and (max-width: 480px){
+.footer-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+}
+}
 
 .footer-all {
   display: flex;
+}
+@media screen and (max-width: 480px){
+.footer-all {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
 }
 
 .subscribe {
@@ -1150,6 +1168,15 @@ img {
   margin-bottom: 16px;
 }
 
+@media screen and (max-width: 480px){
+.subscribe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+   }
+  }
 .footer-subscribe {
   height: 40px;
   width: 264px;
@@ -1161,6 +1188,14 @@ img {
   padding-bottom: 8px;
   padding-left: 16px;
   color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 480px){
+.footer-subscribe {
+  display: flex;
+  align-items: start;
+  width: 395px;
+}
 }
 
 .footer-subscribe::placeholder {
@@ -1202,7 +1237,14 @@ img {
 .button-form:focus {
   background-color: var(--header-color);
 }
+@media screen and (max-width: 480px){
+.button-form {
+  margin-top: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
+}
 .footer-form-icon {
   width: 24px;
   height: 24px;
