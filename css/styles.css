@@ -867,6 +867,13 @@ img {
   border: 1px solid var(--primary-band);
 }
 
+@media screen and (max-width: 480px){
+.btm-portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+}
 /*Menu*/
 .menu-list {
   font-family: "Roboto", sans-serif;
