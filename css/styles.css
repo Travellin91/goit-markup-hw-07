@@ -201,7 +201,7 @@ img {
   .mobile-list-item-phone {
     margin-top: 284px;
   }
-  .mobile-link {
+  .mobile-link{
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -216,6 +216,10 @@ img {
     margin-left: 15px;
     margin-bottom: 40px;
     transition: color 250ms var(--transition-dur-and-func);
+  }
+
+  .active-mob{
+    color: var(--header-color);
   }
 
   .mobile-link:hover,
@@ -585,7 +589,6 @@ img {
   .main-title {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 96px;
   }
 }
 
@@ -593,7 +596,6 @@ img {
   .main-title {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 96px;
   }
 }
 
@@ -601,11 +603,30 @@ img {
   .main-title {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 96px;
   }
 }
 .main-section {
   padding-top: 120px;
+}
+
+@media screen and (max-width: 480px){
+  .main-section{
+    padding-top: 120px;
+    padding-bottom: 96px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width:768px){
+  .main-section{
+    padding-top: 120px;
+    padding-bottom: 96px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px){
+  .main-section{
+    padding-top: 120px;
+    padding-bottom: 96px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -857,7 +878,7 @@ img {
 }
 
 .social-list-item:focus {
-  color: var(--header-color);
+  color: var(--footer-icon-color);
 }
 
 @media screen and (max-width: 480px) {
@@ -1217,7 +1238,6 @@ img {
     justify-content: center;
     align-self: start;
     margin-left: auto;
-    margin-bottom: 72px;
     margin-right: auto;
   }
   .social-media {
@@ -1284,14 +1304,26 @@ img {
   display: block;
 }
 
+.footer-section{
+  display: flex;
+}
+
 @media screen and (max-width: 480px) {
   .footer-solutions {
     display: block;
     justify-content: center;
     align-items: center;
     margin-left: auto;
-    margin-bottom: 72px;
     margin-right: auto;
+  }
+  .footer-section{
+    margin-bottom: 72px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social-media-type-list{
+    justify-content: center
   }
 }
 @media screen and (min-width: 480px) and (max-width: 768px) {
@@ -1300,15 +1332,26 @@ img {
     justify-content: center;
     align-items: center;
     margin-left: auto;
-    margin-bottom: 72px;
     margin-right: auto;
+  }
+  .footer-section{
+    margin-bottom: 72px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social-media-type-list{
+    justify-content: center
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .footer-solutions {
     margin-right: 24px;
+  }
+  .footer-section{
     margin-bottom: 72px;
+
   }
 }
 .footer-media {
