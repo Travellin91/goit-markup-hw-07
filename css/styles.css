@@ -120,6 +120,8 @@ img {
     padding-left: 25px;
     padding-bottom: 40px;
     padding-right: 25px;
+    display: flex;
+    flex-direction: column;
   }
   .mobile-menu {
     position: fixed;
@@ -196,11 +198,21 @@ img {
   .mobile-list-item {
     margin-top: 40px;
   }
-
+  
   .mobile-list-item-phone {
-    margin-top: 284px;
-    
+    margin-top: 284px; 
   }
+
+  .mobile-list-contact{
+  list-style: none;
+}
+
+  .mobile-list-item-mail{
+    margin-top: 40px;
+  }
+
+
+
   .mobile-link {
     font-style: normal;
     font-weight: 700;
