@@ -410,8 +410,6 @@ img {
   list-style: none;
   display: flex;
   margin-left: auto;
-  padding-top: 24px;
-  padding-bottom: 10px;
 }
 
 .header-contact {
@@ -425,7 +423,7 @@ img {
   transition: color 250ms var(--transition-dur-and-func);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header-contact {
     display: none;
   }
@@ -1227,7 +1225,7 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .footer-container {
     display: flex;
     flex-direction: row;
@@ -1338,7 +1336,7 @@ img {
     justify-content: center;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .footer-solutions {
     display: block;
     justify-content: center;
@@ -1381,7 +1379,7 @@ img {
     margin-right: auto;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .footer-container {
     display: flex;
     flex-direction: row;
@@ -1482,7 +1480,7 @@ img {
     margin-right: auto;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .footer-form {
     display: flex;
     justify-content: center;
@@ -1509,7 +1507,7 @@ img {
     margin-right: auto;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .footer-all {
     display: flex;
     flex-direction: column;
@@ -1539,7 +1537,7 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .subscribe {
     display: flex;
     justify-content: center;
@@ -1568,7 +1566,7 @@ img {
     width: 395px;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .footer-subscribe {
     display: flex;
     align-items: start;
@@ -1623,7 +1621,7 @@ img {
     margin-left: auto;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .button-form {
     margin-top: 16px;
     margin-right: auto;
