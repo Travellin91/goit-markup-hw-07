@@ -297,11 +297,11 @@ img {
   }
 
   .mobile-social-list-item:hover {
-    color: var(--footer-icon-color);
+    color: var(--button-hover-color);
   }
 
   .mobile-social-list-item:focus {
-    color: var(--footer-icon-color);
+    color: var(--button-hover-color);
   }
 }
 
@@ -891,11 +891,11 @@ img {
 }
 
 .social-list-item:hover {
-  color: var(--footer-icon-color);
+  color: var(--button-hover-color);
 }
 
 .social-list-item:focus {
-  color: var(--footer-icon-color);
+  color: var(--button-hover-color);
 }
 
 @media screen and (max-width: 480px) {
