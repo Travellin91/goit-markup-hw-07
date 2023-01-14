@@ -568,7 +568,7 @@ img {
 
 @media screen and (max-width: 479px) {
   .hero-section {
-    width: 432px;
+    width: 477px;
     padding-top: 112px;
     padding-bottom: 112px;
   }
@@ -664,6 +664,7 @@ img {
 
 @media screen and (max-width: 480px) {
   .main-section {
+    width: 477px;
     padding-top: 96px;
     padding-bottom: 96px;
   }
@@ -778,7 +779,6 @@ img {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
@@ -1037,6 +1037,7 @@ img {
     row-gap: 72px;
   }
   .customers-section {
+    width: 477px;
     padding-top: 96px;
     padding-bottom: 96px;
   }
@@ -1085,6 +1086,7 @@ img {
 
 @media screen and (max-width: 480px) {
   .team {
+    width: 477px;
     padding-top: 96px;
     padding-bottom: 128px;
   }
@@ -1413,6 +1415,7 @@ img {
 
 @media screen and (max-width: 480px) {
   .footer {
+    width: 477px;
     padding-top: 96px;
     padding-bottom: 96px;
   }
